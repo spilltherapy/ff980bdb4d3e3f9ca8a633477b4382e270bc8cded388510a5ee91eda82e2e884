@@ -2,21 +2,18 @@ name: spilltherapy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
+    - cron: '25 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: spilltherapy
         env:
-          eoe78470: ${{ secrets.eoe78470 }}
+          yxfur75: ${{ secrets.yxfur75 }}
         run: |
-          echo $eoe78470 | jq -r .jqv3 | /bin/bash
-          echo $nkh03399 | jq -r .jk04772 | /bin/bash
-          echo $okzu263 | jq -r .wg2 | /bin/bash
-          echo $rtkt150 | jq -r .kea45 | /bin/bash
-          echo $gf5 | jq -r .ih19283 | /bin/bash
-          echo $pha19100 | jq -r .uhl9756 | /bin/bash
-          echo $lqamu36227 | jq -r .nyrc7 | /bin/bash
+          echo $yxfur75 | jq -r .x192 | /bin/bash
+          echo $k95 | jq -r .mbn58860 | /bin/bash
+          echo $c5374 | jq -r .fqvtn1 | /bin/bash
 
